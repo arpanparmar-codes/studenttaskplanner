@@ -33,10 +33,10 @@ The application uses SQLite to store task information locally on the device.
 
 1. Clone or download this repository.
 2. Open Android Studio.
-3. Select **Open** and choose the downloaded project folder.
+3. Select Open and choose the downloaded project folder.
 4. Allow Gradle to sync.
 5. Connect an Android device or start an emulator.
-6. Click **Run** to launch the application.
+6. Click Run to launch the application.
 
 🎯 Project Objective
 
