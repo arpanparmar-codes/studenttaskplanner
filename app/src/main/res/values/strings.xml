@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Task Planner</string>
+    <string name="app_title">Student Task Planner</string>
+    <string name="app_subtitle">Keep track of assignments, practicals, and exams.</string>
+    <string name="task_title_label">Task title *</string>
+    <string name="task_title_hint">e.g. Prepare Android practical</string>
+    <string name="notes_label">Notes (optional)</string>
+    <string name="notes_hint">Add a short note</string>
+    <string name="choose_date">Choose Due Date</string>
+    <string name="add_task">Add Task</string>
+</resources>

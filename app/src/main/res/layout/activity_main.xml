@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_title"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_subtitle"
+            android:textSize="15sp"
+            android:paddingTop="6dp"
+            android:paddingBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a new task"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_title_label"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/task_title_hint"
+            android:inputType="textCapSentences"
+            android:maxLines="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notes_label"
+            android:textStyle="bold"
+            android:paddingTop="18dp"/>
+
+        <EditText
+            android:id="@+id/edtNotes"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:gravity="top|start"
+            android:hint="@string/notes_hint"
+            android:inputType="textCapSentences|textMultiLine"
+            android:padding="12dp"/>
+
+        <TextView
+            android:id="@+id/txtChosenDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Due date:"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnChooseDate"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:text="@string/choose_date"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btnAddTask"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/add_task"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnShowTasks"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:text="Show Tasks"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</ScrollView>
